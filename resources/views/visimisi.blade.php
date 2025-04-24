@@ -131,15 +131,15 @@
                 <p style="font-weight: bold; font-size: 15px;">UPN Jatim</p>
                 <p style="font-size: 15px;">Jl. Rungkut Madya, Gn. Anyar, Kec. Gn. Anyar, Surabaya, Jawa Timur 60294</p>
                 <p style="font-size: 15px;">(031) 8706369</p>
-                <div class="footer-social-icons" style="display: flex; padding-top: 16px;">
-                    <a href="#" target="_blank" title="Twitter">
-                        <img src="{{ asset('img/Twitter.png') }}" alt="Twitter">
+                <div class="footer-social-icons">
+                    <a href="https://twitter.com" target="_blank" title="Twitter">
+                        <i class="fab fa-twitter"></i>
                     </a>
-                    <a href="#" target="_blank" title="Instagram">
-                        <img src="{{ asset('img/Instagram.png') }}" alt="Instagram">
+                    <a href="https://instagram.com" target="_blank" title="Instagram">
+                        <i class="fab fa-instagram"></i>
                     </a>
-                    <a href="#" target="_blank" title="Facebook">
-                        <img src="{{ asset('img/Facebook.png') }}" alt="Facebook">
+                    <a href="https://facebook.com" target="_blank" title="Facebook">
+                        <i class="fab fa-facebook-f"></i>
                     </a>
                 </div>
             </div>
