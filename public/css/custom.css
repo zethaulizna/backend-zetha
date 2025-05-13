@@ -170,6 +170,7 @@ body.loaded {
   transition: all 0.2s ease-in-out;
   z-index: 1000;
   border-bottom: 0.0625rem solid rgba(200, 200, 200, 0.7); /* 1px */
+
 }
 
 .navbar::after {
@@ -336,6 +337,7 @@ body.loaded {
   justify-content: space-between;
   align-items: center;
   font-weight: 100 !important;
+  padding-right: 3.75rem;
 }
 
 .btn-login {
@@ -399,12 +401,22 @@ body.loaded {
     font-weight: bold!important;
 }
 
-.container-fluid img {
+
+/* Khusus logo, override ukuran default */
+.logo-img {
+  height: 32px !important;
+  width: auto !important;
+  object-fit: contain !important;
+  display: inline-block !important;
+}
+
+
+ .container-fluid img {
     display: block;
     width: 100%;
     height: 24.25rem; /* 388px */
     object-fit: cover;
-}
+} 
 
 .container-fluid-banner h1 {
     font-size: 1.375rem !important; /* 22px */
@@ -475,6 +487,10 @@ body.loaded {
     text-transform: normal;
     display: inline-flex;
     align-items: center;
+}
+
+.d-flex {
+transform: translateX(3.5rem);
 }
 
 .btn-lang {
