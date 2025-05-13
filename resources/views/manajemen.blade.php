@@ -28,52 +28,59 @@
 
 <body>
     <!-- Navbar Start -->
-        <div class="container-fluid p-0 nav-bar">
-            <nav class="navbar navbar-expand-lg bg-none navbar-dark py-3 fixed-top">
-                <div class="collapse navbar-collapse d-flex justify-content-between align-items-center w-100">
-                    <!-- kiri: logo -->
-                    <h1 class="m-0 d-none d-block">LAB INSYDE</h1> 
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav mx-auto">
-                    <a href="{{ url('/') }}" class="nav-item nav-link">Home</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Profil</a>
-                        <div class="dropdown-menu">
-                            <a href="{{ url('about-us') }}" class="dropdown-item">Tentang Kami</a>
-                            <a href="{{ url('manajemen') }}" class="dropdown-item">Manajemen</a>
-                            <a href="{{ url('visimisi') }}" class="dropdown-item">Visi & Misi</a>
-                        </div>
-                    </div>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Layanan</a>
-                        <div class="dropdown-menu">
-                            <a href="#" class="dropdown-item">Konsultasi IT</a>
-                            <a href="#" class="dropdown-item">Sertifikasi BNSP</a>
-                            <a href="#" class="dropdown-item">Sewa LAB</a>
-                            <a href="#" class="dropdown-item">Pelatihan</a>
-                        </div>
-                    </div>
-                    <a href="#" class="nav-item nav-link">Produk</a>
-                    <a href="#" class="nav-item nav-link">Berita</a>
-                    <a href="#" class="nav-item nav-link contact">Kontak</a>
+    <div class="container-fluid p-0 nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-dark py-3 fixed-top">
+          
+          <!-- ✅ Logo -->
+          <a class="navbar-brand">
+            <img src="{{ asset('img/logo.png') }}" alt="LOGO" class="logo-img">
+          </a>
+      
+          <!-- ✅ Tombol hamburger untuk mobile -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <!-- ✅ Menu navigasi -->
+          <div class="collapse navbar-collapse justify-content-between align-items-center" id="navbarCollapse">
+            
+            <!-- Menu tengah -->
+            <div class="navbar-nav mx-auto">
+                <a href="{{ url('/') }}" class="nav-item nav-link">Home</a>
+              <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Profil</a>
+                <div class="dropdown-menu">
+                  <a href="{{ url('about-us') }}" class="dropdown-item">Tentang Kami</a>
+                  <a href="{{ url('manajemen') }}" class="dropdown-item">Manajemen</a>
+                  <a href="{{ url('visimisi') }}" class="dropdown-item">Visi & Misi</a>
                 </div>
-                <!-- Language Buttons -->
-                <div class="d-flex align-items-center">
-                    <button class="btn btn-lang">
-                        <img src="{{ asset('img/indo.png') }}" alt="Bahasa Indonesia">
-                    </button>
-                    <button class="btn btn-lang">
-                        <img src="{{ asset('img/inggris.png') }}" alt="English">
-                    </button>
-                    <!-- Buttons 
-                    <a href="{{ url('login') }}" class="btn btn-login">Login</a> -->
+              </div>
+              <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Layanan</a>
+                <div class="dropdown-menu">
+                  <a href="#" class="dropdown-item">Konsultasi IT</a>
+                  <a href="#" class="dropdown-item">Sertifikasi BNSP</a>
+                  <a href="#" class="dropdown-item">Sewa LAB</a>
+                  <a href="#" class="dropdown-item">Pelatihan</a>
                 </div>
+              </div>
+              <a href="#" class="nav-item nav-link">Produk</a>
+              <a href="#" class="nav-item nav-link">Berita</a>
+              <a href="#" class="nav-item nav-link contact">Kontak</a>
             </div>
+      
+            <!-- Tombol Bahasa -->
+            <div class="language d-flex align-items-center">
+              <button class="btn btn-lang">
+                <img src="{{ asset('img/indo.png') }}" alt="Bahasa Indonesia">
+              </button>
+              <button class="btn btn-lang">
+                <img src="{{ asset('img/inggris.png') }}" alt="English">
+              </button>
+            </div>
+          </div>
         </nav>
-    </div>
+      </div>
     <!-- Navbar End -->
 
     <div class="container-fluid-banner p-0">

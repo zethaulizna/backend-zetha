@@ -74,15 +74,13 @@
             </div>
       
             <!-- Tombol Bahasa -->
-            <div class="d-flex align-items-center">
+            <div class="language d-flex align-items-center">
               <button class="btn btn-lang">
                 <img src="{{ asset('img/indo.png') }}" alt="Bahasa Indonesia">
               </button>
               <button class="btn btn-lang">
                 <img src="{{ asset('img/inggris.png') }}" alt="English">
               </button>
-              <!-- Login button (jika ingin ditambahkan kembali)
-              <a href="{{ url('login') }}" class="btn btn-login">Login</a> -->
             </div>
           </div>
         </nav>
@@ -169,7 +167,7 @@
         <footer class="footer-section">
             <div class="footer-left">
                 <p style="font-weight: bold; font-size: 15px;">Supported By UPN JATIM</p>
-                <p style="padding-bottom: 50px; font-size: 15px;">Lab Insyde Professional berfokus untuk memberikan
+                <p class="footer-desc">Lab Insyde Professional berfokus untuk memberikan
                     sarana dan prasana untuk mahasiswa Fakultas Ilmu Komputer.</p>
                 <div class="footer-line-container">
                     <div class="footer-line"></div>
