@@ -24,7 +24,6 @@
             <ul class="list-unstyled components">
                 <li><a href="{{ route('dashboard.descriptions') }}"><i class="fas fa-home"></i> Home</a></li>
                 <li><a href="{{ route('dashboard.aboutus') }}"><i class="fas fa-info-circle"></i> Tentang Kami</a></li>
-                <li><a href="{{ route('dashboard.leaders') }}"><i class="fas fa-user-tie"></i> Pimpinan</a></li>
                 <li><a href="{{ route('dashboard.vision') }}"><i class="fas fa-bullseye"></i> Visi & Misi</a></li>
                 <li><a href="{{ route('dashboard.management') }}"><i class="fas fa-users-cog"></i> Manajemen</a></li>
                 <li><a href="{{ url('dashboard.services') }}"><i class="fas fa-cogs"></i> Layanan</a></li>

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Lab Insyde-Home</title>
+    <title>Lab Insyde - Tentang Kami</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
     <!-- Google Font -->
@@ -43,9 +43,9 @@
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Profil</a>
                         <div class="dropdown-menu">
                             <a href="{{ url('about-us') }}" class="dropdown-item">Tentang Kami</a>
-                            <a href="{{ url('pimpinan') }}" class="dropdown-item">Pimpinan Fakultas</a>
-                            <a href="{{ url('visimisi') }}" class="dropdown-item">Visi & Misi</a>
                             <a href="{{ url('manajemen') }}" class="dropdown-item">Manajemen</a>
+                            <a href="{{ url('visimisi') }}" class="dropdown-item">Visi & Misi</a>
+
                         </div>
                     </div>
                     <div class="nav-item dropdown">
@@ -77,13 +77,15 @@
     </div>
     <!-- Navbar End -->
 
-    <div class="container-fluid p-0">
-        <img class="w-100" src="{{ asset('img/fasilkom.png') }}" alt="Image">
-
-        <!-- Container for Lorem Ipsum and Register Button -->
-        <div class="text-container pb-4">
-            <h3>TENTANG KAMI</h3>
+    <div class="container-fluid-banner p-0">
+        <div class="banner-wrapper">
+          <img src="{{ asset('img/fasilkom.png') }}" alt="fasilkom" />
+          <div class="text-container pb-4">
+            <h3>Tentang Kami</h3>
+          </div>
         </div>
+      </div>
+      
 
         <main>
             <div class="content-section">
@@ -92,9 +94,8 @@
                         <h2>Profile</h2>
                         <ul>
                             <li class="active"><a href="{{ url('about-us') }}">Tentang Kami</a></li>
-                            <li><a href="{{ url('pimpinan') }}">Pimpinan Fakultas</a></li>
-                            <li><a href="{{ url('visimisi') }}">Visi & Misi</a></li>
                             <li><a href="{{ url('manajemen') }}">Manajemen</a></li>
+                            <li><a href="{{ url('visimisi') }}">Visi & Misi</a></li>
                         </ul>
                     </div>
                 </aside>

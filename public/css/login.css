@@ -89,4 +89,76 @@
         text-decoration: underline;
     }
     
+    @media screen and (max-width: 992px) {
+        body {
+            padding: 0;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .login-container {
+            transform: scale(0.9); /* mengecilkan proporsional */
+            transform-origin: center;
+        }
+    }
+
+
+    @media screen and (max-width: 768px) {
+        body {
+            padding: 0;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .login-container {
+            transform: scale(0.8); /* lebih kecil dari 992px */
+            transform-origin: center;
+        }
+    }
+    
+    @media screen and (max-width: 480px) {
+        body {
+            padding: 0;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .login-container {
+            transform: scale(0.7); /* lebih kecil dari versi 768px */
+            transform-origin: center;
+        }
+    
+        .header-text h2 {
+            font-size: 18px;
+        }
+    
+        .header-text p {
+            font-size: 13px;
+        }
+    
+        .form-label,
+        .form-control,
+        .btn,
+        .forgot-password,
+        .form-links a {
+            font-size: 11px;
+        }
+    
+        .form-control {
+            padding: 0.4rem 0.75rem;
+        }
+    
+        .btn {
+            padding: 0.4rem 1rem;
+        }
+    }
     

@@ -3,8 +3,9 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Lab Insyde-Home</title>
+    <title>Lab Insyde - Home</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    
 
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -46,9 +47,8 @@
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Profil</a>
                         <div class="dropdown-menu">
                             <a href="{{ url('about-us') }}" class="dropdown-item">Tentang Kami</a>
-                            <a href="{{ url('pimpinan') }}" class="dropdown-item">Pimpinan Fakultas</a>
-                            <a href="{{ url('visimisi') }}" class="dropdown-item">Visi & Misi</a>
                             <a href="{{ url('manajemen') }}" class="dropdown-item">Manajemen</a>
+                            <a href="{{ url('visimisi') }}" class="dropdown-item">Visi & Misi</a>
                         </div>
                     </div>
                     <div class="nav-item dropdown">
@@ -80,11 +80,15 @@
     </div>
     <!-- Navbar End -->
 
-    <div class="container-fluid banner p-0">
-        <img class="w-100" src="{{ asset('img/fasilkom.png') }}" alt="fasilkom">
-        <div class="text-container pb-4">
+    <div class="container-fluid-banner p-0">
+        <div class="banner-wrapper">
+          <img src="{{ asset('img/fasilkom.png') }}" alt="fasilkom" />
+          <div class="text-container pb-4">
             <h3>LAB INSYDE</h3>
+          </div>
         </div>
+      </div>
+      
 
         <!-- Description Lab Insyde Section -->
         <section class="description-section">
@@ -157,8 +161,10 @@
                 <p style="font-weight: bold; font-size: 15px;">Supported By UPN JATIM</p>
                 <p style="padding-bottom: 50px; font-size: 15px;">Lab Insyde Professional berfokus untuk memberikan
                     sarana dan prasana untuk mahasiswa Fakultas Ilmu Komputer.</p>
-                <div class="footer-line"></div>
-                <p style="padding-top: 25px; font-size: 15px;">Copyright © Fasilkom 2025. All Rights Reserved</p>
+                <div class="footer-line-container">
+                    <div class="footer-line"></div>
+                </div>
+                <p class="copyright-text">Copyright © Fasilkom 2025. All Rights Reserved</p>
             </div>
             <div class="footer-right">
                 <p style="font-weight: bold; font-size: 15px;">UPN Jatim</p>
