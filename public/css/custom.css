@@ -1727,6 +1727,7 @@ aside {
    .col-lg-8 {
     flex: 0 0 66.66667%;
     max-width: 100%;
+    padding-bottom: 1rem;
 }
 
    .desc-profile {
@@ -1740,7 +1741,9 @@ aside {
    /* ============================
     RESPONSIF VISI SECTION
    ============================ */
-
+   .tc-visi {
+    padding-bottom: 1rem;
+   }
       
 }
 
@@ -2068,6 +2071,10 @@ aside {
 
 .profile-menu ul li a {
   font-size: 0.8rem;
+}
+
+.tc-visi {
+  padding-bottom: 1rem;
 }
 }
 
@@ -2438,6 +2445,10 @@ aside {
 
   .tc-visi h2 {
     font-size: 1.7rem;
+}
+
+.tc-visi {
+  padding-bottom: 0.5rem;
 }
 
 }
@@ -3074,5 +3085,9 @@ aside {
   .footer-left p, .footer-right p {
       font-size: 0.65rem !important;
   }
+
+  .footer-left .copyright-text {
+    margin-top: 0;
+}
 }
  

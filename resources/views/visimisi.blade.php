@@ -131,7 +131,7 @@
         <footer class="footer-section">
             <div class="footer-left">
                 <p style="font-weight: bold; font-size: 15px;">Supported By UPN JATIM</p>
-                <p style="padding-bottom: 50px; font-size: 15px;">Lab Insyde Professional berfokus untuk memberikan
+                <p class="footer-desc">Lab Insyde Professional berfokus untuk memberikan
                     sarana dan prasana untuk mahasiswa Fakultas Ilmu Komputer.</p>
                 <div class="footer-line"></div>
                 <p style="padding-top: 25px; font-size: 15px;">Copyright © Fasilkom 2025. All Rights Reserved</p>
